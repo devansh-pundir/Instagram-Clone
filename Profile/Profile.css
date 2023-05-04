@@ -1,0 +1,65 @@
+.top-pane {
+  height: auto;
+  width: 100%;
+
+  padding: 20px 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-bottom: solid 1px cyan;
+}
+
+.top-pane img {
+  height: 100px;
+  width: 100px;
+
+  border: solid 1px cyan;
+  border-radius: 50%;
+}
+
+.profile-user-name {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+
+  padding: 20px 0px;
+}
+
+.stats-container {
+  height: auto;
+  width: 100%;
+
+  list-style-type: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.stats-container li {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+}
+
+.bottom-pane {
+  height: auto;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  padding: 20px 10px;
+}
+
+.bottom-pane img {
+  height: 200px;
+  width: 200px;
+
+  border: solid 1px cyan;
+}

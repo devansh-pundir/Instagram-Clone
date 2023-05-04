@@ -1,0 +1,135 @@
+.home-f-container {
+  height: auto;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f0f8ff;
+}
+
+.card {
+  height: auto;
+  width: 250px;
+
+  padding: 20px;
+  margin: 20px;
+
+  border-radius: 2px;
+
+  background-color: white;
+}
+
+.card-header {
+  height: auto;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-name {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+
+  padding: 0px;
+}
+
+.del-btn {
+  height: auto;
+  width: max-content;
+
+  padding: 2px 5px;
+  margin: 0px;
+
+  outline: none;
+  border: none;
+  border-radius: 2px;
+
+  background-color: skyblue;
+  color: white;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+}
+
+.card-img {
+  height: 200px;
+  width: 100%;
+
+  margin: 20px 0px;
+
+  object-fit: cover;
+}
+
+.post-info-container {
+  height: auto;
+  width: 100%;
+
+  margin-bottom: 20px;
+}
+
+.post-info-container h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+
+.like-cmt-container {
+  height: auto;
+  width: 100%;
+
+  margin: 20px 0px;
+}
+
+.like-cmt-container p {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+}
+
+.post-cmt-container {
+  height: auto;
+  width: 100%;
+
+  margin: 0px;
+  padding: 0px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-cmt-container input {
+  height: 40px;
+  width: 75%;
+
+  outline: none;
+  border: solid 1px cyan;
+  border-radius: 2px;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+
+  margin-right: 5px;
+}
+
+.post-cmt-container button {
+  height: 40px;
+  width: 25%;
+
+  margin: 0px;
+
+  outline: none;
+  border: none;
+  border-radius: 2px;
+
+  background-color: skyblue;
+  color: white;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+}

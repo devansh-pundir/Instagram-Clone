@@ -1,0 +1,48 @@
+nav {
+  height: auto;
+  width: 100%;
+
+  padding: 20px 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: solid 1px cyan;
+}
+
+.brand {
+  /* font-family: "Grand Hotel", cursive;
+  font-size: 25px;
+  font-weight: lighter; */
+
+  height: 35px;
+  width: 35px;
+
+  background-image: url("../Assets/1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-links {
+  height: auto;
+  width: 100%;
+
+  display: flex;
+}
+
+.nav-links li {
+  list-style-type: none;
+
+  margin-left: 15px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+
+  color: black;
+}
